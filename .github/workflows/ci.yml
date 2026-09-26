@@ -1,0 +1,27 @@
+name: checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install light dependencies (CPU torch)
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install numpy scipy
+      - name: Validate notebook structure (if present)
+        run: |
+          if [ -f notebooks/degp_battery.ipynb ]; then
+            python tools/validate_notebook.py
+          else
+            echo "notebook not yet present — skipping"
+          fi
+      - name: Run the 12-check verification suite
+        run: python checks/run_checks.py
