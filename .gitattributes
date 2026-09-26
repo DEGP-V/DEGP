@@ -1,0 +1,7 @@
+* text=auto
+*.ipynb text eol=lf
+*.pdf binary
+*.pt binary
+*.pkl binary
+*.npy binary
+*.mm binary
