@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  If you use this artifact, please cite it as below, along with the
+  paper it accompanies.
+title: 'DEGP: Decoupled Entropic-Geometric Planning (artifact)'
+authors:
+  - family-names: Mostafa
+    given-names: Mohsen
+    email: mohsen.mostafa.ai@outlook.com
+type: software
+version: 1.0.0
+date-released: '2026-XX-XX'        # fill at tagging
+license: MIT
+repository-code: 'https://github.com/<USER>/degp-artifact'
+abstract: >-
+  Artifact for "Decoupled Entropic-Geometric Planning (DEGP):
+  Verified Conditioning, Measured Mechanisms, and a Mapped
+  Contact-Prediction Boundary in Latent-World-Model Deployment".
+  Contains the degp package, the 12-check verification suite, the
+  checkpointed 6-cell experimental battery (Push-T deployment and
+  18-condition attribution battery), per-seed results for every
+  table, all figures, and the pre-registration register.
+keywords:
+  - world models
+  - model-based planning
+  - representation learning
+  - pre-registration
+  - Push-T
+  - reproducibility
