@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "degp"
+version = "1.0.0"
+description = "Decoupled Entropic-Geometric Planning: paper artifact"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohsen Mostafa", email = "mohsen.mostafa.ai@outlook.com" }]
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.0",
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "Pillow",
+]
+
+[project.optional-dependencies]
+battery = [
+  "pymunk==6.11.1",
+  "gym-pusht",
+  "gymnasium",
+  "h5py",
+  "tqdm",
+]
+
+[tool.setuptools]
+packages = ["degp"]
