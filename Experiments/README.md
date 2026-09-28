@@ -11,3 +11,5 @@ DEGP-PHASE (C) - Experiment 3 : https://www.kaggle.com/code/babydriver1233/degp-
 DEGP - The 'M2' Implementations : https://www.kaggle.com/code/babydriver1233/degp-the-m2-implementations
  
 Phase C2 — Stage2_environment_planning_on_Push-T : https://www.kaggle.com/code/babydriver1233/phase-c2-stage2-environment-planning-on-push-t
+
+DEGP-Optimizer-robustness experiment : https://www.kaggle.com/code/babydriver1233/degp-optimizer-robustness-experiment
