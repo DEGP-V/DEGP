@@ -13,3 +13,5 @@ DEGP - The 'M2' Implementations : https://www.kaggle.com/code/babydriver1233/deg
 Phase C2 — Stage2_environment_planning_on_Push-T : https://www.kaggle.com/code/babydriver1233/phase-c2-stage2-environment-planning-on-push-t
 
 DEGP-Optimizer-robustness experiment : https://www.kaggle.com/code/babydriver1233/degp-optimizer-robustness-experiment
+
+generator/extractor, PGD weight optimization : https://www.kaggle.com/code/babydriver1233/generator-extractor-pgd-weight-optimization-eq
